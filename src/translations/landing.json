@@ -1,0 +1,62 @@
+{
+  "$description": "wickbot.com トップ・support・premium ページ用",
+  "scope": ["wickbot.com", "www.wickbot.com"],
+  "entries": {
+    "New Dashboard": "新ダッシュボード",
+    "Old Dashboard": "旧ダッシュボード",
+    "Invite": "Bot を招待",
+    "Discord moderation and security that is always one step ahead": "常に一歩先を行く、Discord のモデレーションとセキュリティ。",
+    "Servers": "導入サーバー",
+    "Raids Stopped": "防いだ荒らし",
+    "Nukes Stopped": "防いだ Nuke 攻撃",
+    "Nuke Attempts": "Nuke 攻撃の試行回数",
+    "A new version of Wick released!": "Wick の新バージョンがリリースされました！",
+    "Discord Server": "Discord サーバー",
+    "Documentation": "ドキュメント",
+    "Iron out your Discord server and fully secure it. Go Premium.": "Discord サーバーを丸ごと整え、堅牢に守る。Premium へ。",
+    "Discord's largest communities use Premium": "Discord の大規模コミュニティが Premium を選んでいます",
+    "Premium Servers": "Premium サーバー",
+    "Total Members": "合計メンバー数",
+    "Banned Accounts": "BAN したアカウント",
+    "Kicked Accounts": "キックしたアカウント",
+    "Quarantined Accounts": "隔離したアカウント",
+    "plans": "プラン",
+    "more": "詳しく見る",
+    "go back": "戻る",
+    "subscribe": "購読する",
+    "select": "選ぶ",
+    "per month": "/ 月",
+    "Everything from Premium": "Premium のすべての機能を含む",
+    "Dedicated Resources": "専用リソース",
+    "Custom Branding": "カスタムブランディング",
+    "Super Low Latency": "超低遅延",
+    "12 Premium Servers": "Premium サーバー 12 個",
+    "Advanced Anti Raid": "高度な荒らし対策",
+    "Advanced Anti Nuke": "高度な Nuke 対策",
+    "Advanced Automod": "高度なオートモデレーション",
+    "Advanced Quarantine": "高度な隔離機能",
+    "Smart Backups": "スマートバックアップ",
+    "Advanced Lockdown System": "高度なロックダウン機能",
+    "Customizable Verification": "カスタマイズ可能な認証",
+    "Increased Ratelimits": "緩和されたレート制限",
+    "All raids blocked without you worrying.": "荒らしは Wick が止めるので、運営は本来の運営に専念できます。",
+    "Your server is monitored 24/7 for any suspicious activity.": "サーバーを 24 時間 365 日見守り、不審な動きを即座に検知します。",
+    "Several additional filters and a system that handles mass spam efficiently": "追加のフィルターと、大量スパムを軽快に処理するシステム",
+    "AND MORE": "その他にも多数",
+    "A lot of new solid moderation and features waiting for you to discover.": "強力なモデレーション機能と新機能を多数用意。ぜひお試しください。"
+  },
+  "multiline": [
+    {
+      "lines": [
+        "Backups of your server taken automatically, load and synchronize them easily",
+        "with your server."
+      ],
+      "ja": "サーバーのバックアップを自動取得。読み込みも同期もワンクリックで完了します。"
+    }
+  ],
+  "titles": {
+    "Wick Bot": "Wick Bot",
+    "Wick Bot - Support": "Wick Bot - サポート",
+    "Wick Bot - Premium": "Wick Bot - Premium"
+  }
+}

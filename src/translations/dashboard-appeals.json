@@ -1,0 +1,11 @@
+{
+  "$description": "Appeals 設定ページ",
+  "scope": [
+    "dashboard.wickbot.com"
+  ],
+  "entries": {
+    "APPEALS": "異議申し立て",
+    "blacklist": "ブラックリスト",
+    "No pending appeals..": "保留中の異議申し立てはありません。"
+  }
+}

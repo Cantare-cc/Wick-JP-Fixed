@@ -1,0 +1,79 @@
+{
+  "$description": "Join Gate 設定ページ",
+  "scope": [
+    "dashboard.wickbot.com"
+  ],
+  "entries": {
+    "Join Gate Status": "入室フィルターのステータス",
+    "Use the joingate module.": "入室フィルター機能を有効にする。",
+    "DM members when punished.": "処罰時にメンバーへ DM を送る。",
+    "Bot Additions": "ボットの追加",
+    "Target bots added by unauthorized members.": "未承認のメンバーが追加したボットを対象にする。",
+    "Trigger Action": "発動時のアクション",
+    "Trigger Action represents what Wick does once this filter triggers.": "発動時のアクションは、このフィルターが反応したときに Wick が行う処理です。",
+    "is Discord's native kick feature": "は Discord 標準のキック機能です",
+    "Unverified Bot Additions": "未認証ボットの追加",
+    "Target Discord Unverified bots added by any.": "誰かが追加した Discord 未認証ボットを対象にする。",
+    "Since you have the bot addition filter enabled, you technically could disable this filter if you want authorized members to add any type of bots.": "ボット追加フィルターを有効にしているので、承認済みメンバーにあらゆる種類のボット追加を許したい場合は、このフィルターは無効にしても構いません。",
+    "No Avatar": "アバターなし",
+    "Target accounts that have no profile pictures.": "プロフィール画像が設定されていないアカウントを対象にする。",
+    "Suspicious Account": "不審なアカウント",
+    "Target accounts Wick deems suspicious.": "Wick が不審と判断したアカウントを対象にする。",
+    "Advertising Name": "宣伝目的の名前",
+    "Target accounts with invite links in usernames.": "ユーザー名に招待リンクを含むアカウントを対象にする。",
+    "is Discord's native timeout feature used to prevent the": "は Discord 標準のタイムアウト機能で、次の対象を一時的に制限します:",
+    "from sending messages or joining voice channels": "メッセージ送信やボイスチャンネル参加を一時的にできなくします",
+    "Account Age": "アカウント年齢",
+    "Target accounts younger than a specified timeframe.": "指定した期間より新しいアカウントを対象にする。",
+    "Minimum Account Age": "最低アカウント年齢",
+    "day": "日",
+    "Target accounts that have a username that match your list.": "指定したリストに一致するユーザー名のアカウントを対象にする。",
+    "Enable this filter POST join too.": "このフィルターを参加後にも適用する。",
+    "This filter works when the member": "このフィルターは次の場合に動作します: メンバーが",
+    "JOINS": "サーバーに参加した瞬間",
+    "is Discord's native ban feature plus the bulk deletion of the": "は Discord 標準の BAN 機能に加え、対象のメッセージを一括削除します:",
+    "'s messages that were sent the entire week": "の直近 1 週間のメッセージ",
+    "Strict Words": "完全一致ワード",
+    "Add Word": "ワードを追加",
+    "Wildcard Words": "部分一致ワード",
+    "Note: Wick sanitizes the username and simplifies it before matching.": "補足: Wick はユーザー名をサニタイズし、簡略化してから照合します。"
+  },
+  "multiline": [
+    {
+      "lines": [
+        "This filter works when the member",
+        "JOINS",
+        "the server, enable this field to",
+        "have it run anytime the member changes the username/nickname, this is useful for",
+        "raid accounts that try to bypass the filter with a different name, then change",
+        "back to the intended name."
+      ],
+      "ja": "このフィルターはメンバーがサーバーに参加した瞬間に動作します。このオプションを有効にすると、ユーザー名やニックネームの変更時にも動作するようになり、別名でフィルターを回避してから本来の名前に戻そうとする荒らしアカウントの対策に役立ちます。"
+    },
+    {
+      "lines": [
+        "the server, enable this field to",
+        "have it run anytime the member changes the username/nickname, this is useful for",
+        "raid accounts that try to bypass the filter with a different name, then change",
+        "back to the intended name."
+      ],
+      "ja": "に動作します。このオプションを有効にすると、ユーザー名やニックネームの変更時にも動作するようになり、別名でフィルターを回避してから本来の名前に戻そうとする荒らしアカウント対策に役立ちます。"
+    },
+    {
+      "lines": [
+        "The username must exactly match one of the elements below, Case",
+        "insensitive. If you have the word \"Discord\" added, the full username of",
+        "the account joining must be \"discord\"."
+      ],
+      "ja": "ユーザー名が下のいずれかと完全一致した場合に動作します（大文字小文字の区別なし）。例えば「Discord」を登録すると、参加するアカウントのユーザー名全体が「discord」である必要があります。"
+    },
+    {
+      "lines": [
+        "The username needs to INCLUDE one of the elements below, Case",
+        "insensitive. If you have the word \"nitro\" added, a user with the name",
+        "\"discordnitro\" will be targeted."
+      ],
+      "ja": "ユーザー名が下のいずれかを含む場合に動作します（大文字小文字の区別なし）。例えば「nitro」を登録すると、「discordnitro」というユーザー名のアカウントが対象になります。"
+    }
+  ]
+}

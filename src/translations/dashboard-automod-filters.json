@@ -1,0 +1,18 @@
+{
+  "$description": "Auto Mod / Filters タブ",
+  "scope": ["dashboard.wickbot.com"],
+  "entries": {
+    "Anti Spam": "スパム対策",
+    "Target message, mention, attachment spam and a lot more.": "メッセージ・メンション・添付ファイルの連投など、さまざまな種類のスパムを対象にします。",
+    "Invite Links": "招待リンク",
+    "Target Discord Server invites sent by advertisers.": "宣伝目的で送られた Discord サーバーの招待リンクを対象にします。",
+    "Malicious Links": "悪質なリンク",
+    "Target phishing/malicious/scam websites sent in your server.": "フィッシング・悪質・詐欺サイトのリンクを対象にします。",
+    "NSFW Links": "NSFW リンク",
+    "Target NSFW websites posted in SFW channels.": "SFW チャンネルに投稿された NSFW サイトのリンクを対象にします。",
+    "Word Blacklist": "禁止ワード",
+    "Target premade profanity words or add your own.": "用意済みの禁止ワード、または独自に追加した単語を対象にします。",
+    "Link Blacklist": "禁止リンク",
+    "Target websites found in messages that you manage.": "メッセージ中に含まれる、あなたが管理する Web サイトを対象にします。"
+  }
+}

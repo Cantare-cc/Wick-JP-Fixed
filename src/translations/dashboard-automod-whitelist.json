@@ -1,0 +1,17 @@
+{
+  "$description": "Auto Mod / Whitelist タブ",
+  "scope": ["dashboard.wickbot.com"],
+  "entries": {
+    "Spam": "スパム",
+    "Invite Links": "招待リンク",
+    "Mentions": "メンション",
+    "Anti spam filters' Whitelist (messages)": "スパム対策フィルターのホワイトリスト（メッセージ）",
+    "Select User": "ユーザーを選ぶ",
+    "Roles": "ロール",
+    "Channels": "チャンネル",
+    "Select Channel": "チャンネルを選ぶ",
+    "Categories": "カテゴリー",
+    "Select Category": "カテゴリーを選ぶ",
+    "Webhooks": "Webhook"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$description": "Logging 設定ページ",
+  "scope": [
+    "dashboard.wickbot.com"
+  ],
+  "entries": {
+    "Custom Logging": "カスタムログ",
+    "wick": "Wick",
+    "discord": "Discord",
+    "Wick Logs": "Wick のログ",
+    "All of Wick logs that don't have any channel to go to will be sent here.": "送信先チャンネルが指定されていない Wick のログはすべてここに送られます。",
+    "Mod Logs": "モデレーションログ",
+    "The moderation actions done by your staff members using Wick will go here as cases.": "スタッフメンバーが Wick で行ったモデレーション操作はケースとしてここに記録されます。",
+    "There are no customizable log channels set, add your own.": "カスタマイズ可能なログチャンネルが設定されていません。独自に追加してください。"
+  }
+}

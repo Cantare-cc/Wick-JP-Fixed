@@ -1,0 +1,62 @@
+{
+  "$description": "Anti Nuke / Filters タブ",
+  "scope": ["dashboard.wickbot.com"],
+  "entries": {
+    "Kicks & Bans": "キック・BAN",
+    "Monitor kicks and bans.": "キックと BAN を監視する。",
+    "Minute Limit": "分あたりの上限",
+    "A staff member needs to": "スタッフがこの動作を行うのが:",
+    "kick/ban": "キック / BAN",
+    "members": "人",
+    "in less than": "次の時間より短い間に:",
+    "removal": "件",
+    "every single": "あたり",
+    "that": "を超えると Wick が対応します。スタッフがこの数値を超えないようにしてください。",
+    "they need to stay under if they want Wick not coming after them.": "を超えないようにする必要があります。超えると Wick が対応します。",
+    "Kicks/Bans": "キック / BAN",
+    "Hour Limit": "時間あたりの上限",
+    "1 hour": "1 時間",
+    "Heat Per Action": "1 操作あたりのヒート",
+    "This field is only considered when the Panic Mode plus its heat option are enabled.": "この項目は、緊急モードとそのヒートオプションが両方有効な場合にのみ参照されます。",
+    "We absolutely recommend not giving your staff members native Discord Ban/Kick permissions, force them to use Wick's kick and ban commands that are supervised by the antinuke to ensure no casualties!": "スタッフに Discord 標準の BAN・キック権限を渡さないことを強く推奨します。Nuke 対策で監視される Wick のキック・BAN コマンドを使わせれば、事故を防げます！",
+    "Role": "ロール",
+    "Creations": "作成",
+    "Monitor role creations.": "ロールの作成を監視する。",
+    "create": "作成",
+    "roles": "ロール",
+    "creation": "件",
+    "Deletions": "削除",
+    "Monitor role deletions.": "ロールの削除を監視する。",
+    "delete": "削除",
+    "deletion": "件",
+    "Channel": "チャンネル",
+    "Monitor channel creations.": "チャンネルの作成を監視する。",
+    "channels": "チャンネル",
+    "Channels": "チャンネル",
+    "Monitor channel deletions.": "チャンネルの削除を監視する。",
+    "Webhook": "Webhook",
+    "Monitor webhook creations.": "Webhook の作成を監視する。",
+    "webhooks": "Webhook",
+    "Webhooks": "Webhook",
+    "Tracking webhooks created by people is very important.": "人が作成した Webhook を追跡することは非常に重要です。",
+    "Monitor webhook deletions.": "Webhook の削除を監視する。"
+  },
+  "multiline": [
+    {
+      "lines": [
+        ",",
+        "That's an average of"
+      ],
+      "ja": "、平均すると次のペースです:"
+    },
+    {
+      "lines": [
+        "every single",
+        "second",
+        "that",
+        "they need to stay under if they want Wick not coming after them."
+      ],
+      "ja": "毎秒あたり。スタッフがこの数値を下回るようにしてください。超えると Wick が対応します。"
+    }
+  ]
+}

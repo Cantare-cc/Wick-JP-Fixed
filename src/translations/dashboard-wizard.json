@@ -1,0 +1,25 @@
+{
+  "$description": "Wizard ページ",
+  "scope": [
+    "dashboard.wickbot.com"
+  ],
+  "entries": {
+    "WIZARD": "ウィザード",
+    "Start Wizard": "ウィザードを開始",
+    "Setup Process": "セットアップの流れ",
+    "Steps": "ステップ",
+    "Auto Setup": "自動セットアップ",
+    "Rescue Key": "レスキューキー",
+    "You can choose a certain step if you want.": "任意のステップを選んで進められます。",
+    "The full setup could take around 3 minutes of your time.": "全工程はおよそ 3 分で完了します。"
+  },
+  "multiline": [
+    {
+      "lines": [
+        "This wizard helps simplify Wick's setup for you in detailed explained steps",
+        "that you can follow to ensure the proper behavior you want from Wick."
+      ],
+      "ja": "このウィザードは、詳しく説明された手順に沿って Wick のセットアップを簡単にします。手順に沿って進めることで、Wick を意図どおりに動作させられます。"
+    }
+  ]
+}

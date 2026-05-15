@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Wick Bot 日本語化</title>
+    <style>
+      :root { color-scheme: dark; }
+      body {
+        margin: 0;
+        padding: 16px 18px;
+        width: 260px;
+        font-family: -apple-system, "Hiragino Sans", "Yu Gothic", "Segoe UI", sans-serif;
+        background: #14181f;
+        color: #e7ecf3;
+      }
+      h1 {
+        font-size: 14px;
+        margin: 0 0 8px;
+        letter-spacing: 0.04em;
+      }
+      p {
+        font-size: 12px;
+        line-height: 1.6;
+        margin: 0 0 12px;
+        color: #aab2c0;
+      }
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-top: 1px solid #232936;
+      }
+      .row:last-of-type { border-bottom: 1px solid #232936; }
+      .row label { font-size: 12px; }
+      .toggle {
+        position: relative;
+        width: 36px;
+        height: 20px;
+        background: #2a3140;
+        border-radius: 999px;
+        cursor: pointer;
+        transition: background 0.15s ease;
+      }
+      .toggle::after {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #e7ecf3;
+        transition: transform 0.15s ease;
+      }
+      .toggle.on { background: #4e7cf2; }
+      .toggle.on::after { transform: translateX(16px); }
+      footer {
+        margin-top: 12px;
+        font-size: 11px;
+        color: #6e7689;
+        text-align: center;
+      }
+      footer a { color: #aab2c0; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <h1>Wick Bot 日本語化</h1>
+    <p>wickbot.com を自然な日本語に翻訳します。</p>
+    <div class="row">
+      <label for="toggle-enabled">日本語化を有効化</label>
+      <div id="toggle-enabled" class="toggle on" role="switch" aria-checked="true" tabindex="0"></div>
+    </div>
+    <footer>
+      <a href="https://github.com/mikumiku-jp/wick-jp" target="_blank" rel="noreferrer noopener">GitHub</a>
+    </footer>
+    <script src="popup.js"></script>
+  </body>
+</html>

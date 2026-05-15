@@ -1,0 +1,24 @@
+{
+  "$description": "Permits 設定ページ",
+  "scope": [
+    "dashboard.wickbot.com"
+  ],
+  "entries": {
+    "Customize your permissions.": "権限をカスタマイズします。",
+    "Extra Owner": "追加オーナー",
+    "OWNER": "オーナー",
+    "IMMUNITY": "イミュニティ",
+    "Trusted Admin": "信頼された管理者",
+    "Admins": "管理者",
+    "Moderators": "モデレーター",
+    "Permit Name": "権限名",
+    "Permit Roles": "対象ロール",
+    "Permit Users": "対象ユーザー",
+    "Permissions": "権限",
+    "New Permit": "新しい権限",
+    "Permits": "権限",
+    "Abort": "中止",
+    "BACKUPS": "バックアップ",
+    "CASES": "ケース"
+  }
+}

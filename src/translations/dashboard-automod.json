@@ -1,0 +1,57 @@
+{
+  "$description": "Auto Mod 設定ページ",
+  "scope": [
+    "dashboard.wickbot.com"
+  ],
+  "entries": {
+    "General Settings": "全般設定",
+    "AutoMod Status": "オートモデレーションのステータス",
+    "Use the automod module.": "オートモデレーション機能を有効にする。",
+    "Use the anti spam.": "スパム対策を有効にする。",
+    "Monitor unwhitelisted webhooks.": "ホワイトリストに登録されていない Webhook を監視する。",
+    "AutoMod Mode": "オートモデレーションのモード",
+    "You needed more info?": "もっと詳しく知りたいですか？",
+    "Here is more info you wanted. You're welcome!": "ここに詳しい説明をまとめました。お役に立てれば幸いです！",
+    "Heat System": "ヒートシステム",
+    "Auto Timeouts": "自動タイムアウト",
+    "Use the auto timeouts.": "自動タイムアウトを有効にする。",
+    "Regular Strike Duration": "通常ストライクの長さ",
+    "CAP Strike Duration": "CAP ストライクの長さ",
+    "Multiply timeouts.": "タイムアウト時間を倍率で延ばす。",
+    "Enable Multiplier": "倍率を有効にする",
+    "Multiplier Percentage": "倍率（％）",
+    "Heat Settings": "ヒート設定",
+    "Max Heat": "ヒートの上限",
+    "The member's heat starts accumulating until it reaches": "メンバーのヒートが蓄積し、以下の値に達するまで上がり続けます:",
+    "where the Automod will trigger, and the filter that generated the most heat is picked as the reason behind the trigger. This chosen filter's action will be used too.": "この値でオートモデレーションが発動します。最もヒートを発生させたフィルターが発動理由として選ばれ、そのフィルターのアクションが実行されます。",
+    "Heat Degradation (every second)": "ヒートの減衰量（毎秒）",
+    "While time is passing, the heat accumulated by the member drops gradually every single second by": "時間が経つにつれ、メンバーが蓄積したヒートは毎秒以下の値ずつ減っていきます:",
+    "Heat reset": "ヒートのリセット",
+    "Once the member triggers Wick's automod, the member's heat will be reset down to": "メンバーが Wick のオートモデレーションを発動させると、ヒートは以下の値までリセットされます:",
+    "Set current heat to 0% after punishment.": "処罰後に現在のヒートを 0% に戻す。",
+    "AUTO LOCKDOWN": "自動ロックダウン",
+    "Auto Lockdown Status": "自動ロックダウンのステータス",
+    "Use the auto lockdown module.": "自動ロックダウン機能を有効にする。",
+    "Mentions Lockdown": "メンション数によるロックダウン",
+    "Mentions Trigger Status": "メンショントリガーのステータス",
+    "Use the mentions auto lockdown trigger.": "メンションによる自動ロックダウントリガーを有効にする。",
+    "Trigger Count": "発動回数",
+    "Have Wick react when at least": "次の条件で Wick を反応させる: 少なくとも",
+    "from non whitelisted members have been made in the past": "がホワイトリスト外のメンバーから次の時間内に発生:",
+    "Trigger Count History": "発動回数の履歴",
+    "second": "秒",
+    "Strikes Lockdown": "ストライク数によるロックダウン",
+    "JoinRaid Lockdown": "大量参加によるロックダウン",
+    "minute": "分",
+    "s": "秒"
+  },
+  "multiline": [
+    {
+      "lines": [
+        "from non whitelisted members have",
+        "been made in the past"
+      ],
+      "ja": "がホワイトリスト外のメンバーから次の時間内に発生:"
+    }
+  ]
+}
