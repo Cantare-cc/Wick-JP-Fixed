@@ -1,0 +1,79 @@
+{
+  "$description": "wickbot.com トップページのセクション・フッター・機能紹介・お客様の声",
+  "scope": ["wickbot.com", "www.wickbot.com"],
+  "entries": {
+    "Dashboard Alan Walker": "ダッシュボード（Alan Walker）",
+
+    "Wick has a very unique auto mod that is based on a heat concept. The more filters you trigger, the quicker Wick is to silence you.": "Wick は「ヒート」という独自の考え方に基づく、ユニークなオートモデレーションを備えています。発動するフィルターが多いほど、Wick が素早く対象を黙らせます。",
+    "Advanced Anti Spam": "高度なスパム対策",
+    "Anti Advertisement": "宣伝対策",
+    "Anti NSFW Links": "NSFW リンク対策",
+    "Anti Malicious Links": "悪質なリンク対策",
+    "I'm spamming the same message!": "（例）同じメッセージを連投します！",
+    "Salvi0 has been silenced for 30m!": "Salvi0 を 30 分間ミュートにしました！",
+    "REASON: Similar Message Spam": "理由: 同一内容メッセージのスパム",
+
+    "Wick brought the concept of \"Anti Nuke\" to Discord years ago, and the system has been perfected ever since. Wick will monitor the activity of your staff members and will react if a weird behaviour (that you specify) is met. The days of you losing your entire server are long gone.": "Wick は数年前に Discord へ「Nuke 対策」の概念を持ち込み、その後も改良を重ねてきました。スタッフメンバーの行動を監視し、設定した不審な振る舞いを検知すると即座に対応します。サーバーを丸ごと失う時代はもう終わりです。",
+    "Bans/Kicks Monitoring": "BAN・キックの監視",
+    "Channel Creations/Deletions": "チャンネル作成・削除",
+    "Role Creations/Deletions": "ロール作成・削除",
+    "Webhook Creations/Deletions": "Webhook 作成・削除",
+
+    "You can use a 'Press to enter' type of verification or you can use Wick's custom captcha that members need to answer before gaining access to your server. Verification is super useful against raids and attacks.": "「ボタンを押すだけ」の認証方式や、Wick 独自のキャプチャを使った認証など、メンバーがサーバーにアクセスする前に通過するゲートを用意できます。荒らしや攻撃への対策として非常に有効です。",
+    "Welcome to #verify-here!": "#verify-here へようこそ！",
+    "This is the start of the #verify-here channel.": "ここが #verify-here チャンネルの始まりです。",
+    "Verification Required!": "認証が必要です！",
+    "Press on the Verify button below.": "下の「認証する」ボタンを押してください。",
+    "To access Wick Lounge, you need topass the verification first.": "Wick Lounge にアクセスするには、まず認証を通過してください。",
+    "More Features:": "さらに豊富な機能:",
+
+    "Take/Load backups and syncrhonize them efficiently with your server.": "バックアップの取得・読み込みを行い、サーバーと効率的に同期できます。",
+    "Lock your entire server in less than a second in case of a raid. Lock server joins or even staff member powers.": "荒らし発生時はサーバー全体を 1 秒以内にロック。サーバー参加やスタッフ権限まで凍結できます。",
+    "Have a variety of tools when it comes to your server joins. Target new accounts, suspicious accounts, accounts without a profile picture or even bots added to your server.": "サーバー参加に関わる多彩なツールを用意。新規アカウント、怪しいアカウント、プロフィール画像のないアカウント、追加されるボットまで対象にできます。",
+    "Moderation": "モデレーション",
+    "Mute, kick, ban, quarantine and warn members with a lot of tools and parameters offered to help you moderate efficiently and fast.": "ミュート・キック・BAN・隔離・警告など、豊富なツールとパラメーターで効率的かつスピーディーなモデレーションを支援します。",
+    "Cases": "ケース",
+    "All moderation actions are saved as cases that you can edit, freeze or bring back. You can view the cases of a member or the cases that are issued by a moderator.": "あらゆるモデレーション操作は「ケース」として保存され、編集・凍結・復元が可能です。メンバー単位やモデレーター単位でケースを参照できます。",
+    "Utility": "ユーティリティ",
+    "View the important information about a member, a role or your entire server. Check the recent actions made by your staff members.": "メンバー・ロール・サーバー全体の重要情報を確認できます。スタッフが直近で行った操作もチェックできます。",
+    "Detailed Logs": "詳細なログ",
+    "Wick will log everything it does in great details. All logs are beautified and presented in an easy to read format.": "Wick が行ったすべての操作を詳細にログ出力します。すべてのログは読みやすい形に整えられて表示されます。",
+    "Auto Quarantine": "自動隔離",
+    "Giving dangerous permissions to your public roles? Giving a member dangerous permissions? Have Wick monitor your staff for any nuke-behavior": "公開ロールに危険な権限を付与していませんか？特定メンバーに危険な権限を渡していませんか？ Wick にスタッフの Nuke 的な振る舞いを監視させましょう。",
+    "Panic Modes": "緊急モード",
+    "Wick comes with a panic mode for each the Auto Mod and the Anti Nuke, panic modes are made to combat raids and nukes efficiently and fast.": "Wick はオートモデレーションと Nuke 対策それぞれに緊急モードを備えています。荒らしと Nuke 攻撃に素早く効率よく対応するためのモードです。",
+    "Stop ANY sized raid attack targeted at your server. Wick's joinraid system is able to identify the automated accounts without harming your genuine joins.": "規模を問わず、あらゆる荒らし攻撃を阻止できます。Wick の大量参加対策は、自動生成アカウントだけを見抜き、正規の参加者には影響しません。",
+    "Slowmode": "低速モード",
+    "Enforce your own slowmode in a channel or multiple at once with the delay you choose using Wick.": "Wick で任意のチャンネル単位、あるいは複数チャンネル一括で、指定した遅延時間の低速モードを適用できます。",
+    "Efficient Purge": "効率的なメッセージ削除",
+    "Bulk delete messages sent in a channel and specify which type of messages to target with Wick's variant filters.": "チャンネルに送信されたメッセージを一括削除でき、Wick の各種フィルターで対象のメッセージタイプを指定できます。",
+    "And there's even more!": "さらに、他にもたくさん！",
+
+    "Trusted by the largest communities": "大規模コミュニティに信頼されています",
+    "We love Wickbot": "Wickbot 最高です",
+    "Although initial setup was a bit difficult, the extensive documentation made the learning process an ease. Since we have leveraged wick on our own discord we've not had any major raids, spam bots or scam links posted in the server. Highly recommend wick for anyone that wants a professional solution to discord moderation!": "初期設定は少し難しかったものの、充実したドキュメントのおかげで習得はスムーズでした。Discord で Wick を導入してから、大きな荒らし・スパムボット・詐欺リンクの投稿は一切なくなりました。本格的な Discord モデレーション対策を探している方には強くおすすめします！",
+
+    "Wick is growing like crazy!": "Wick はものすごい勢いで成長中！",
+    "All kinds of communities are using Wick to keep their members and servers safe, maybe its your turn now!": "ありとあらゆるコミュニティがメンバーとサーバーの安全を守るために Wick を利用しています。次はあなたの番かもしれません！",
+    "Invite Wick": "Wick を招待",
+    "An advanced fully customizable moderation bot at your service with a lot of utilities and a dashboard to make your life easy.": "高度かつ自由にカスタマイズできるモデレーションボット。便利機能と使いやすいダッシュボードで、あなたのサーバー運営をぐっと楽にします。",
+
+    "Useful Links": "便利なリンク",
+    "Add Wick": "Wick を追加",
+    "Reviews": "レビュー",
+    "Resources": "リソース",
+    "Team": "チーム",
+    "Updates": "アップデート",
+    "Legal": "法的情報",
+    "© Wick Bot 2019-2026. All rights reserved.": "© Wick Bot 2019-2026. All rights reserved."
+  },
+  "multiline": [
+    {
+      "lines": [
+        "To access Wick Lounge, you need to",
+        "pass the verification first."
+      ],
+      "ja": "Wick Lounge にアクセスするには、まず認証を通過してください。"
+    }
+  ]
+}
