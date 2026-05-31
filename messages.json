@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Wick Bot Japanese",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Unofficial browser extension that translates wickbot.com into natural Japanese.",
+    "description": "Extension description"
+  }
+}
