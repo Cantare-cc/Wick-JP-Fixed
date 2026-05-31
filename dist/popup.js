@@ -49,4 +49,19 @@
       toggle.click();
     }
   });
+})();  }
+
+  readEnabled().then(setToggleState);
+
+  toggle.addEventListener("click", async () => {
+    const next = !toggle.classList.contains("on");
+    setToggleState(next);
+    writeEnabled(next);
+  });
+  toggle.addEventListener("keydown", (e) => {
+    if (e.key === " " || e.key === "Enter") {
+      e.preventDefault();
+      toggle.click();
+    }
+  });
 })();
